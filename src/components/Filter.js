@@ -3,13 +3,13 @@ import './Filter.css'
 
 function Filter(props) {
     const [city,setCity] = useState('');
-    const [state,setState] = useState('');
+    const [state,setState] = useState('')
     
     const formSubmit = (event) => {
         event.preventDefault();
         const filterData = {
             city : city,
-            state : state
+            state : state,
         }
         // console.log(filterData);
         setCity('');
@@ -31,7 +31,7 @@ function Filter(props) {
         <input type="text" placeholder='city' value={city} onChange={(e)=> {
             setCity(e.target.value); 
         }}  />
-        <button>Add</button>
+        <button>Search</button>
         </form>
     </div>
     

@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Ride.css";
 
 export default function Ride(props) {
+  
+  let dis = 100006;
   return (
     <>
       <div className="container">
@@ -17,14 +19,21 @@ export default function Ride(props) {
             <div className="station_container">
               <span className="station_path">
                 station_path :
+                
                 {props.station_path.map((x) => {
-                  return <span className="station_path_no">{x} </span>;
+                  
+                  {dis = Math.max(Math.abs(parseInt(props.id) - parseInt({x})), parseInt(dis));
+                  console.log(dis);
+                }
+                  return <span className="station_path_no">{x}  </span>;
                 })}
               </span>
             </div>
 
             <div className="date">Date : {props.date}</div>
-            <div className="distance">Distance : 0km</div>
+            <div className="distance">Distance : 0
+                
+            </div>
           </div>
           <div className="container_box_2">
             <div className="state">{props.state}</div>
