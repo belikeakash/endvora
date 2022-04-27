@@ -1,6 +1,6 @@
 .form {
     /* margin-left: 100px; */
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-left: 30px;
 }
 
@@ -26,6 +26,43 @@ form > button {
     cursor: pointer;
     display: flex;
     margin-left: 15px;
-    background-color: #101010;
+    background-color: #454444;
     color: white;
+}
+
+.form {
+    margin-top: 5px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-bottom: 5px;
+    background-color: #101010;
+    border-radius: 20px;
+    overflow-y: visible;
+}
+
+
+@media (max-width: 800px) {
+    .form {
+        width: 120px;
+    }
+
+    .form> button {
+        width: 40px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    .form {
+        width: 90px;
+    }
+
+    .form> button {
+        width: 20px;
+        font-size: 8px;
+    }
 }

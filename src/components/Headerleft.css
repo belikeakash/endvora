@@ -10,9 +10,53 @@
 
 .header_left {
     height: 60px;
+    margin-left: 10px;
     /* margin: auto; */
 }
 .header_left_div {
     margin: auto 50px;
     width: 150px;
 }
+
+@media (max-width:1500px) {
+    .header_left_div {
+        font-size: 16px;
+    }
+    .header_left {
+        height: 50px;
+        /* margin: auto; */
+    }
+}
+
+@media (max-width:1200px) {
+    .header_left {
+        height: 40px;
+        /* margin: auto; */
+    }
+    .header_left_div {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:900px) {
+    .header_left {
+        height: 40px;
+        /* margin: auto; */
+    }
+    .header_left_div {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:600px) {
+    .header_left {
+        height: 40px;
+        /* margin-left: 10px; */
+        /* margin: auto; */
+    }
+    .header_left_div {
+        font-size: 10px;
+    }
+}
+
+
