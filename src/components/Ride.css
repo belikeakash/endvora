@@ -1,0 +1,66 @@
+.station_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    height: 198px;
+}
+
+.container_image {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.container_image>img {
+    height: 148px;
+    width: 296px;
+    border-radius: 10px;
+}
+
+.container_box {
+    display: flex;
+    margin-top: 40px;
+    /* height: auto; */
+    
+}
+
+.container_box_1 {
+    width: 800px;
+}
+.container_box_2 {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-right: 20px; */
+}
+
+.container_box_2 > div {
+    margin-right: 20px;
+}
+
+.container{
+    background-color: #171717;
+    margin: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+.state {
+    border-radius: 20px;
+    background-color: #353434;
+    color: white;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+}
+.city {
+    border-radius: 20px;
+    background-color: #353434;
+    color: white;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+}

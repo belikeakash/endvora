@@ -1,0 +1,18 @@
+.header_left_div > a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_left_div > a:hover {
+    text-decoration: underline;
+    
+}
+
+.header_left {
+    height: 60px;
+    /* margin: auto; */
+}
+.header_left_div {
+    margin: auto 50px;
+    width: 150px;
+}

@@ -1,0 +1,23 @@
+.form {
+    /* margin-left: 100px; */
+    margin-top: 40px;
+}
+
+form > input {
+    width: 80px;
+    display: block;
+    height: 16px;
+    margin-bottom: 5px;
+    overflow-y: visible;
+    border-radius: 12px;
+    background-color: #101010;
+    color: white;
+    
+}
+
+form > button {
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 12px;
+    width: 40px;
+}
